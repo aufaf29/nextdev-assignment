@@ -189,6 +189,10 @@ td, th {
     padding: 15px;
 }
 
+.contact-me h2 {
+    font-size: 25px;
+}
+
 .contact-form {
     display: block;
     width: 90%;
@@ -199,15 +203,36 @@ td, th {
     margin-top: 20px;
 }
 
-/* label, input {
-    display: block;
+.contact-list {
+    min-height: 100px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 0px 24px;
 }
 
-label {
-    margin-bottom: 5px;
+.advice-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 20px;
+    background-color: #ffffff;
 }
 
-input {
-    width: 100%;
-    margin-bottom: 10px;
-} */
+.custom-card {
+    background-color: #ffffff !important;
+    width: 48%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    border: 3px solid #000000;
+}
+
+.custom-card table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin: 15px;
+    width: 450px;
+}
